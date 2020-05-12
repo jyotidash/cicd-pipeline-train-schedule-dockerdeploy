@@ -34,7 +34,7 @@ pipeline {
 
                     app.inside {
 
-                        sh 'echo $(curl localhost:8081)'
+                        sh 'echo $(curl localhost:8080)'
 
                     }
 
