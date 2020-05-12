@@ -30,7 +30,7 @@ pipeline {
 
                 script {
 
-                    app = docker.build("jyotidash/train-schedule")
+                    app = docker.build("jyotidash/train-schedule1")
 
                     app.inside {
 
